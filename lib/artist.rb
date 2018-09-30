@@ -18,7 +18,7 @@ def songs
 end
 
 def save
-  @@all << self
+  self.class.all << self
 end
 
 def self.all
