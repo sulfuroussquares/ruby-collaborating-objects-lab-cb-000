@@ -6,7 +6,7 @@ def initialize(path)
 end
 
 def self.files
-  DirDir["./spec/fixtures/mp3s/*"].map {|x| File.basename(x)}
+  Dir["./spec/fixtures/mp3s/*"].map {|i| File.basename(i)}
 end
 
 end
