@@ -9,4 +9,7 @@ def files
   Dir["./spec/fixtures/mp3s/*"].map {|i| File.basename(i)}
 end
 
+def import
+end
+
 end
