@@ -11,7 +11,6 @@ end
 
 def import
   files.each {|i| Song.new_by_filename(i)}
-  array.each {|item| puts "The current array item is: #{item}"}
 end
 
 end
